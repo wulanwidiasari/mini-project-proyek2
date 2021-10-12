@@ -9,7 +9,7 @@
             <h1>Pembayaran</h1>
             <div class="section-header-breadcrumb">
                 <div class="breadcrumb-item active"><a href="#">Dashboard</a></div>
-                <div class="breadcrumb-item"><a href="{{ route('payments.index') }}">Payment</a></div>
+                <div class="breadcrumb-item"><a href="{{ route('payments.index') }}">Pembayaran</a></div>
                 <div class="breadcrumb-item">Buat Pembayaran Baru</div>
             </div>
         </div>

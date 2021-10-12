@@ -8,7 +8,7 @@
             <div class="col-lg-12">
                 <div class="breadcrumb__links">
                     <a href="/"><i class="fa fa-home"></i> Home</a>
-                    <span>Keranjang Belanja</span>
+                    <span>Keranjang Saya</span>
                 </div>
             </div>
         </div>

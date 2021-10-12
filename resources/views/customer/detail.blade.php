@@ -8,7 +8,7 @@
             <div class="col-lg-12">
                 <div class="breadcrumb__links">
                     <a href="/"><i class="fa fa-home"></i> Home</a>
-                    <a href="{{ route('shop') }}"> Shop</a>
+                    <a href="{{ route('shop') }}"> Beli</a>
                     <span>{{ $products->name }}</span>
                 </div>
             </div>
