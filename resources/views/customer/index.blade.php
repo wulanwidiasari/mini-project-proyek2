@@ -56,7 +56,7 @@
                         <div class="product__item">
                             <div class="product__item__pic set-bg" data-setbg="{{asset('storage/'.$product->image->image_path)}}"
                                 style="background-size: contain; background-position: center center;">
-                                <div class="label new">New</div>
+                                <div class="label new">Baru</div>
                                 <ul class="product__hover">
                                     <li><a href="{{asset('storage/'.$product->image->image_path)}}" class="image-popup"><span
                                                 class="arrow_expand"></span></a></li>

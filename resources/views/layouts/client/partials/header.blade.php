@@ -11,7 +11,7 @@
                 <nav class="header__menu">
                     <div class="header__search">
                         <form action="#">
-                            <input type="text" placeholder="Hayoo... mau beli apa?">
+                            <input type="text" placeholder="Telusuri">
                             <button type="submit" class="header__search__btn">Cari</button>
                         </form>
                     </div>
