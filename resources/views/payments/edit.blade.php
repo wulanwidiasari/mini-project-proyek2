@@ -6,11 +6,11 @@
 <div class="main-content">
     <section class="section">
         <div class="section-header">
-            <h1>Payment</h1>
+            <h1>Pembayaran</h1>
             <div class="section-header-breadcrumb">
                 <div class="breadcrumb-item active"><a href="#">Dashboard</a></div>
-                <div class="breadcrumb-item"><a href="{{ route('payments.index') }}">Payment</a></div>
-                <div class="breadcrumb-item">Edit Payment</div>
+                <div class="breadcrumb-item"><a href="{{ route('payments.index') }}">Pembayaran</a></div>
+                <div class="breadcrumb-item">Edit Pembayaran</div>
             </div>
         </div>
 
@@ -24,7 +24,7 @@
                                 @csrf
                                 @method('PUT')
                                 <div class="form-group">
-                                    <label>Nama Payment</label>
+                                    <label>Nama Pembayaran</label>
                                     <input type="text" class="form-control" name="name" value="{{ $payment->name }}">
                                 </div>
                                  <div class="form-group">
@@ -36,7 +36,7 @@
                                     <input type="text" class="form-control" name="account_number" value="{{ $payment->account_number }}">
                                 </div>
                                  <div class="form-group">
-                                    <label>Logo Payment</label>
+                                    <label>Logo Pembayaran</label>
                                     <input type="file" class="form-control" name="image" value="{{ $payment->image }}"><br>
                                     <img width="150px" src="{{ asset('storage/'.$payment->image) }}">
                                 </div>

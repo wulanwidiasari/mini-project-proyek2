@@ -8,7 +8,7 @@
             <div class="col-lg-12">
                 <div class="breadcrumb__links">
                     <a href="/"><i class="fa fa-home"></i> Home</a>
-                    <span>Shopping cart</span>
+                    <span>Keranjang Belanja</span>
                 </div>
             </div>
         </div>
@@ -70,12 +70,12 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="cart__btn">
-                        <a href="{{ url('shop') }}">Continue Shopping</a>
+                        <a href="{{ url('shop') }}">Kembali Berbelanja</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="cart__btn update__btn">
-                        <button type="submit" class="button"><span class="icon_loading"></span> Update cart</button>
+                        <button type="submit" class="button"><span class="icon_loading"></span> Memperbaharui Keranjang</button>
                     </div>
                 </div>
             </div>
@@ -85,11 +85,11 @@
             </div>
             <div class="col-lg-4 offset-lg-2">
                 <div class="cart__total__procced">
-                    <h6>Cart total</h6>
+                    <h6>Total Pembelian</h6>
                     <ul>
                         <li>Total <span>Rp {{ number_format($total, 0, ',', '.') }}</span></li>
                     </ul>
-                    <a href="{{ route('order.create') }}" class="primary-btn">Proceed to checkout</a>
+                    <a href="{{ route('order.create') }}" class="primary-btn">Memproses Pembelian</a>
                 </div>
             </div>
         </div>

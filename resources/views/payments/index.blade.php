@@ -1,15 +1,15 @@
 @extends('layouts.admin.master')
 
-@section('title', '- Manajemen Payment')
+@section('title', '- Manajemen Pembayaran')
 
 @section('content')
     <div class="main-content">
         <section class="section">
             <div class="section-header">
-                <h1>Payment</h1>
+                <h1>Pembayaran</h1>
                 <div class="section-header-breadcrumb">
                     <div class="breadcrumb-item active"><a href="#">Dashboard</a></div>
-                    <div class="breadcrumb-item">Payment</div>
+                    <div class="breadcrumb-item">Pembayaran</div>
                 </div>
             </div>
 
@@ -20,7 +20,7 @@
                             <div class="card-header">
                                 <h4>
                                     <a href="{{ route('payments.create') }}" class="btn btn-primary btn-sm"><i
-                                            class="fa fa-plus"></i> Buat Payment Baru</a>
+                                            class="fa fa-plus"></i> Buat Pembayaran Baru</a>
                                 </h4>
                             </div>
                             <div class="card-body">
@@ -31,10 +31,10 @@
                                                 <th class="text-center" style="width: 10px">
                                                    No
                                                 </th>
-                                                <th>Nama Payment</th>
+                                                <th>Nama Pembayaran</th>
                                                 <th>Nama Akun</th>
                                                 <th>Nomor Akun</th>
-                                                <th>Image</th>
+                                                <th>Gambar</th>
                                                 <th class="text-center">Actions</th>
                                             </tr>
                                         </thead>

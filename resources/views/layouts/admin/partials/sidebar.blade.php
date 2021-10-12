@@ -12,7 +12,7 @@
             <li class="{{ (request()->segment(1) == 'dashboard') ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('admin.dashboard') }}">
                     <i class="fas fa-tachometer-alt"></i> 
-                    <span>Dashboard</span>
+                    <span>Beranda</span>
                 </a>
             </li>
             <li class="{{ (request()->segment(1) == 'stores') ? 'active' : '' }}">
@@ -24,7 +24,7 @@
             <li class="{{ (request()->segment(1) == 'payments') ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('payments.index') }}">
                       <i class="fas fa-wallet"></i>
-                    <span>Payment</span>
+                    <span>Pembayaran</span>
                 </a>
             </li>
             <li class="dropdown {{ (request()->segment(1) == 'categories' || request()->segment(1) == 'products' || request()->segment(1) == 'brands') ? 'active' : '' }}">

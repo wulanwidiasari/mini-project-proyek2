@@ -5,7 +5,7 @@
             <div class="col-lg-4 col-md-6 col-sm-7">
                 <div class="footer__about">
                     <div class="footer__logo">
-                        <a href="./index.html"><img src="/img/logo-korbanphp.png" width="210px" alt=""></a>
+                        <a href="./index.html"><img src="/img/logo-mebel.png" width="210px" alt=""></a>
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                         cilisis.</p>
@@ -22,9 +22,9 @@
                 <div class="footer__widget">
                     <h6>Quick links</h6>
                     <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Tentang</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Kontak</a></li>
                         <li><a href="#">FAQ</a></li>
                     </ul>
                 </div>
@@ -33,8 +33,8 @@
                 <div class="footer__widget">
                     <h6>Account</h6>
                     <ul>
-                        <li><a href="#">My Account</a></li>
-                        <li><a href="#">Orders Tracking</a></li>
+                        <li><a href="#">Akun Saya</a></li>
+                        <li><a href="#">Proses Order</a></li>
                         <li><a href="#">Checkout</a></li>
                         <li><a href="#">Wishlist</a></li>
                     </ul>

@@ -8,7 +8,7 @@
             <div class="col-lg-12">
                 <div class="breadcrumb__links">
                     <a href="/"><i class="fa fa-home"></i> Home</a>
-                    <a href="{{ route('shoppingCarts.index') }}"><span>Shopping cart</span></a>
+                    <a href="{{ route('shoppingCarts.index') }}"><span>Keranjang Saya</span></a>
                     <span>Checkout</span>
                 </div>
             </div>
@@ -41,13 +41,13 @@
                         <div class="col-lg-12">
                             <div class="checkout__form__input">
                                 <p>Alamat <span>*</span></p>
-                                <input type="text" name="address1" placeholder="Street Address" required>
-                                <input type="text" name="address2" placeholder="Apartment. suite, unite ect ( optinal )">
+                                <input type="text" name="address1" placeholder="Alamat" required>
+                                <input type="text" name="address2" placeholder="Detail Lainnya (Cth: Blok/Unit No.,Patokan)">
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="checkout__form__input">
-                                <p>Propinsi <span>*</span></p>
+                                <p>Provinsi <span>*</span></p>
                                 <input type="text" name="province" required>
                             </div>
                         </div>
@@ -72,7 +72,7 @@
                         <div class="col-lg-12">
                             <div class="checkout__form__input">
                                 <p>Catatan Pemesanan <span></span></p>
-                                <input type="text" name="notes" placeholder="Note about your order, e.g, special noe for delivery">
+                                <input type="text" name="notes" placeholder="Silahkan tinggalkan pesan .... ">
                             </div>
                         </div>
                     </div>

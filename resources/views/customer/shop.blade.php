@@ -10,7 +10,7 @@
                 <div class="col-lg-12">
                     <div class="breadcrumb__links">
                         <a href="/"><i class="fa fa-home"></i> Home</a>
-                        <span>Shop</span>
+                        <span>Beli</span>
                     </div>
                 </div>
             </div>
@@ -26,7 +26,7 @@
                     <div class="shop__sidebar">
                         <div class="sidebar__categories">
                             <div class="section-title">
-                                <h4>Categories</h4>
+                                <h4>Kategori</h4>
                             </div>
                             @foreach ($categories as $category)
                             <div class="categories__accordion">
@@ -44,7 +44,7 @@
                         </div>
                         <div class="sidebar__filter">
                             <div class="section-title">
-                                <h4>Shop by price</h4>
+                                <h4>Beli Berdasarkan Harga</h4>
                             </div>
                             <div class="filter-range-wrap">
                                 <div class="price-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"
